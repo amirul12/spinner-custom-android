@@ -1,0 +1,18 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false">
+
+        <layer-list>
+
+            <item android:drawable="@drawable/spinner_bg_trans"></item>
+            <item android:right="5dp">
+
+                <bitmap android:gravity="center_vertical|right"  android:src="@drawable/down_arrow" />
+
+            </item>
+
+        </layer-list>
+
+    </item>
+    <item android:drawable="@drawable/card_item_bg_normal" android:state_pressed="true"></item>
+</selector>

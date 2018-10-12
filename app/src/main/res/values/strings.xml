@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SpinerDemo</string>
+
+    <array name="demo_spinner_data">
+        <item>Khulna </item>
+        <item>Dhaka </item>
+        <item>Satkhira</item>
+    </array>
+</resources>
